@@ -1,0 +1,14 @@
+﻿<Window x:Name="MainWindow1" x:Class="WarframeLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WarframeLauncher"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="72" Width="477.282" WindowStyle="None" AllowsTransparency="True" Loaded="MainWindow1_Loaded" Topmost="True" WindowStartupLocation="CenterScreen" Top="0" Background="Transparent">
+    <Grid Background="#99000000">
+        <Label x:Name="LabelTitle" Content="Status Label Title" HorizontalAlignment="Left" Margin="77,0,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="397"/>
+        <Image x:Name="ezgif_6_1b5366c175da_png" Source="ezgif-6-1b5366c175da.png" Stretch="UniformToFill" Width="72" Height="72" VerticalAlignment="Top" HorizontalAlignment="Left" MouseDown="ezgif_6_1b5366c175da_png_MouseDown" MouseRightButtonDown="ezgif_6_1b5366c175da_png_MouseRightButtonDown"/>
+        <Label x:Name="LabelSubtitle" Content="Status Label Title" HorizontalAlignment="Left" Margin="77,34,0,0" VerticalAlignment="Top" Foreground="White" Width="397" Height="32" FontSize="14"/>
+    </Grid>
+</Window>
